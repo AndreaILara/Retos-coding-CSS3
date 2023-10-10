@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectores</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <h1 id="hello">Hola estudiante</h1>
+  <h1 class="other">Este es otro H1</h1>
+
+  <div class="divider blue">
+    <p>Soy un elemento</p>
+  </div>
+  <div class="divider red">
+    <p>Soy otro elemento</p>
+  </div>
+
+
+
+  <div class="divider coral">
+    <p>Soy un elemento</p>
+  </div>
+  <div class="divider red">
+    <p>Soy otro elemento</p>
+  </div>
+
+  <div>
+    <h2>Soy un H2</h2>
+
+  </div>
+
+  <div class="container">
+    <h2>Soy un H2 pero mi padre tiene clase</h2>
+  </div>
+
+  <ul>
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+  </ul>
+
+  <a href="hola.com">Hola</a>
+  <!-- ESPECIFICIDAD
+ A: Aplicaciones de estilo mediante atributo
+ B: Aplicación de estilo mediante ID
+ C: Mediante clases o pseudoclases
+ D: Mediante elementos o pseudoelementos
+ A B C D
+ clase -> 0 0 1 0
+ etiqueta -> 0 0 0 1 
+ id -> 0 1 0 0
+ LA CLASE VALE MÁS QUE LA ETIQUETA, DOS ETIQUETAS CONJUNTAS VALEN MÁS QUE LA CLASE, EL ID TIENEN UN MAYOR NIVEL -->
+  <footer>
+    <p>Quiero mis estilos</p>
+  </footer>
+</body>
+
+</html>
